@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Orbitron', sans-serif;
+*/
+html { 
+	font-size: 62.5% !important; 
+} 
+body { font-size: 1rem !important;
+	font-family: 'Roboto', sans-serif !important;
+	color: #333;
+	background: rgb(2,1,22);
+	background: linear-gradient(180deg, rgba(2,1,22,1) 0%, rgba(54,64,83,1) 100%);
+}
+
+.portfolio{
+	width: 1050px;
+	margin: 0 auto;
+}
+.portfolio .profile-container{
+	background: #fff;
+	margin-top: 20rem;
+	padding: 5rem;
+	background-size: 5rem;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+.portfolio .profile-picture{
+	text-align: center;
+}
+.portfolio .profile-name{
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Orbitron', sans-serif;
+}
+.portfolio .profile-name p{
+	font-size: 5rem;
+}
+.portfolio .profile-motto{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+.portfolio .profile-motto p{
+	font-size: 2.5rem;
+}
+.portfolio .profile-motto p span{
+	font-size: 5rem;
+	font-weight: bold;
+}
+.portfolio figure img{
+	width: 30rem;
+	border-radius: 50%;
+	margin-top: -20rem;
+}
+.portfolio ul{
+	display: flex;
+	gap: 3rem;
+	font-size: 2.5rem;
+	justify-content: center;
+}
+.portfolio ul li{
+	text-transform:uppercase;
+}
+.portfolio ul li a{
+	text-decoration: none;
+	color: black;
+}
+.portfolio .multi-tab{
+	background: #333;
+}
+.portfolio .multi-tab ul{
+}
+.portfolio .multi-tab ul li{
+	padding: 5rem 0;	
+}
+.portfolio .multi-tab ul li a{
+	color: #fff;
+	padding: 4.5rem;
+	font-weight: bold;
+}
+.portfolio .multi-tab ul li a.on{
+	color: #333;
+	background: #fff;
+}
+.portfolio .multi-tab ul li a:hover{
+	color: #333;
+	background: #fff;
+}
+.portfolio .tab-container{
+	background: #fff;
+	padding: 4rem;
+}
+.portfolio .tab-container p{
+	font-size: 2rem;
+	color: #333;
+	line-height: 1.5;
+}
+
+/*---------------------*/
+/* Skills bar effects */
+/*---------------------*/
+
+.skillbar {
+	position:relative;
+	display:inline-block;
+	margin:15px 0;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	width:100%;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	display:inline-block;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+/*---------------------*/
+/* END Skills bar effects */
+/*---------------------*/
